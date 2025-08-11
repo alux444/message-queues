@@ -1,4 +1,4 @@
-import { kafka } from "./kafka.ts";
+import { kafka } from "../../shared/kafka.js";
 import type { EachMessagePayload } from "kafkajs";
 
 const consumer = kafka.consumer({ groupId: "analytics-service" });

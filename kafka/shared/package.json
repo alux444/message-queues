@@ -1,0 +1,14 @@
+{
+  "name": "@kafka-shared/core",
+  "version": "1.0.0",
+  "description": "Shared Kafka configuration for message queue services",
+  "main": "kafka.js",
+  "type": "module",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,4 +1,4 @@
-import { kafka } from "./kafka";
+import { kafka } from "../../shared/kafka.js";
 
 const producer = kafka.producer();
 

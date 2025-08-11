@@ -1,4 +1,4 @@
-import { kafka } from "./kafka"
+import { kafka } from "../../shared/kafka.js";
 import { type Message } from "kafkajs";
 
 const consumer = kafka.consumer({ groupId: "notification-service" });
